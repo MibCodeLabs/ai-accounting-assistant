@@ -74,5 +74,3 @@ Future:
 * Bank reconciliation
 * Advanced financial analysis
 
-```
-```
