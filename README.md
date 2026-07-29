@@ -168,3 +168,12 @@ Planned:
 * Advanced financial analysis
 * Automated tax summaries
 * More advanced audit detection
+
+
+## AI Tool Usage History Note
+
+The assignment requested submission of AI tool usage history and prompts used during development.
+
+Due to the limited assessment timeframe, development was performed across multiple AI-assisted sessions and separate conversation threads for research, debugging, implementation, and documentation. These sessions were not centrally recorded, so a complete export of all AI interactions is unavailable.
+
+AI tools were used as development assistance for research, architecture decisions, coding guidance, debugging, and documentation refinement. The submitted repository and documentation represent the completed work produced during the assessment period.
