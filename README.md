@@ -21,7 +21,7 @@ ai/          → AI agent and tools
 database/    → Database files
 ```
 
-## Features
+## Target Features
 
 * AI-based transaction entry
 * Expense and income management
@@ -30,6 +30,7 @@ database/    → Database files
 * Basic audit checks
 
 ## Deliverables
+
 
 Research Paper:
 
@@ -49,28 +50,42 @@ Workflow Diagram:
 docs/workflow-diagram.png
 ```
 
+## Documentation
+
+The project follows Spec-Driven Development (SDD).
+
+Available documentation:
+- Research paper
+- System specifications
+- Workflow diagrams
+- Data model documentation
+
 ## Run Locally
 
 ```bash
 docker compose up --build
 ```
 
-## Status
+## Current Status
 
 Completed:
 
-* Research
-* Architecture design
-* Core AI workflow
+* Accounting workflow research
+* Research paper
+* System architecture design
+* AI agent workflow design
+* Database semantic model
+* SDD specifications
+* Workflow diagrams
 
 In Progress:
 
-* Additional accounting features
-* UI improvements
+* Backend development
+* Frontend development
+* AI agent implementation
 
 Future:
 
 * OCR invoice processing
 * Bank reconciliation
 * Advanced financial analysis
-
