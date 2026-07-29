@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Sxex_wsuKtHUQ1G2HuUN">
+    <mxGraphModel dx="1704" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-42" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-13" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="USER" vertex="1">
+          <mxGeometry height="120" width="140" x="100" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-15" parent="Qei-x_7UqU7kLkCLDk1m-13" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Accountant" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-87" parent="Qei-x_7UqU7kLkCLDk1m-13" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Business Owner&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-86" parent="Qei-x_7UqU7kLkCLDk1m-13" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-85" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-37" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value=" Frontend&amp;nbsp;&lt;div&gt;Next.js + TypeScript   &lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="140" x="370" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-38" parent="Qei-x_7UqU7kLkCLDk1m-37" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value=" AI Chat Interface    " vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-39" parent="Qei-x_7UqU7kLkCLDk1m-37" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Expense/Income Forms  " vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-40" parent="Qei-x_7UqU7kLkCLDk1m-37" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Ledger View      " vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-41" parent="Qei-x_7UqU7kLkCLDk1m-37" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Reports Dashboard&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-75" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="180" />
+              <mxPoint x="1230" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-82" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-43" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="AI Agent Layer &lt;div&gt;LangGraph + GPT-4.1 Mini&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="250" x="885" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-44" parent="Qei-x_7UqU7kLkCLDk1m-43" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Understand Request" vertex="1">
+          <mxGeometry height="30" width="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-45" parent="Qei-x_7UqU7kLkCLDk1m-43" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Plan Task   " vertex="1">
+          <mxGeometry height="30" width="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-46" parent="Qei-x_7UqU7kLkCLDk1m-43" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value=" Select Tool  " vertex="1">
+          <mxGeometry height="30" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-52" parent="Qei-x_7UqU7kLkCLDk1m-43" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Generate Response" vertex="1">
+          <mxGeometry height="30" width="250" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="Backend API&lt;div&gt;FastAPI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" x="650" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-48" parent="Qei-x_7UqU7kLkCLDk1m-47" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Business Logic " vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-49" parent="Qei-x_7UqU7kLkCLDk1m-47" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Authentication  " vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-50" parent="Qei-x_7UqU7kLkCLDk1m-47" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Pydantic Validation" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-79" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-53" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value=" Accounting Tools  " vertex="1">
+          <mxGeometry height="120" width="310" x="1330" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-54" parent="Qei-x_7UqU7kLkCLDk1m-53" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Transaction Management&lt;div&gt;(Create/Update/View)  &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-55" parent="Qei-x_7UqU7kLkCLDk1m-53" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value=" Financial Reports&lt;div&gt;(P&amp;amp;L, Balance Sheet)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-56" parent="Qei-x_7UqU7kLkCLDk1m-53" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Audit &amp;amp; Analysis" vertex="1">
+          <mxGeometry height="30" width="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-78" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-60" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="PostgreSQL Database " vertex="1">
+          <mxGeometry height="150" width="140" x="1415" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-61" parent="Qei-x_7UqU7kLkCLDk1m-60" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Users  " vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-62" parent="Qei-x_7UqU7kLkCLDk1m-60" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value=" Transactions " vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-63" parent="Qei-x_7UqU7kLkCLDk1m-60" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Accounts  " vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-64" parent="Qei-x_7UqU7kLkCLDk1m-60" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Audit Logs&amp;nbsp; &amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-76" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240.166666666667" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-68" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="Validation &amp;amp; Security" vertex="1">
+          <mxGeometry height="120" width="140" x="1170" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-69" parent="Qei-x_7UqU7kLkCLDk1m-68" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Data Validation" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-70" parent="Qei-x_7UqU7kLkCLDk1m-68" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Permission Checks" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-71" parent="Qei-x_7UqU7kLkCLDk1m-68" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="AI Action Logs" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-74" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-80" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-84" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-39" value="API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

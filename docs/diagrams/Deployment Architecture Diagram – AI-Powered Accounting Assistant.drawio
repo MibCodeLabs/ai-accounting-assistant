@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Sxex_wsuKtHUQ1G2HuUN">
+    <mxGraphModel dx="1887" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-349" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" target="Qei-x_7UqU7kLkCLDk1m-341" value="HTTPS Request">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460.0000000000002" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-350" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-351" connectable="0" parent="Qei-x_7UqU7kLkCLDk1m-350" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="REST API" vertex="1">
+          <mxGeometry relative="1" x="0.0148" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-341" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Vercel&lt;div&gt;Next.js Frontend&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-352" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-344">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-363" connectable="0" parent="Qei-x_7UqU7kLkCLDk1m-352" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Agent Request" vertex="1">
+          <mxGeometry relative="1" x="-0.6152" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-342" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;nbsp;Backend Server&lt;div&gt;FastAPI Application&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-353" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-346">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-364" connectable="0" parent="Qei-x_7UqU7kLkCLDk1m-353" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value=" Tool Execution" vertex="1">
+          <mxGeometry relative="1" x="0.1406" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-354" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-345">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-344" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AI Service Layer&lt;div&gt;&lt;ul&gt;&lt;li&gt;Agent&lt;/li&gt;&lt;li&gt;Tool Calling System&amp;nbsp;&lt;/li&gt;&lt;li&gt;Prompt Management &amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="330" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-345" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="External AI API&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;LLM Processing&lt;/li&gt;&lt;li&gt;Language Understanding&lt;/li&gt;&lt;li&gt;Reasoning   &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="200" x="550" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-362" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-346" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355.14" y="1100" as="sourcePoint" />
+            <mxPoint x="354.87913043478295" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-346" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Accounting Tools&amp;nbsp;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Create Transaction&lt;/li&gt;&lt;li&gt; Update Transaction &amp;nbsp;&lt;/li&gt;&lt;li&gt;Generate Reports&lt;/li&gt;&lt;li&gt;Run Audit&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Query Records&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="210" x="250" y="981" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-347" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&#xa;PostgreSQL DB&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-356" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-341">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="209.96" y="699.96" />
+              <mxPoint x="209.96" y="599.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-357" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-342">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="209.96" y="699.96" />
+              <mxPoint x="209.96" y="749.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-358" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="Qei-x_7UqU7kLkCLDk1m-347">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="209.96" y="699.96" />
+              <mxPoint x="209.96" y="1190.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-348" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Docker Compose&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Frontend Container&lt;/li&gt;&lt;li&gt;Backend Container&amp;nbsp;&lt;/li&gt;&lt;li&gt;PostgreSQL Container&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="-50" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-360" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="USER" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

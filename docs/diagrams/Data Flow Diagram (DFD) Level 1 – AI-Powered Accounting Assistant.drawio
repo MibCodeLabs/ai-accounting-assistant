@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Sxex_wsuKtHUQ1G2HuUN">
+    <mxGraphModel dx="2838" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-293" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-296">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750.0000000000005" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-278" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="AI Agent Layer&lt;div&gt;LangGraph&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-292" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-278" value="Validated Request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-279" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="FastAPI Backend&lt;div&gt;API Layer&amp;nbsp; &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-291" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-279" value="REST API Request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-280" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="Next.js UI&lt;div&gt;Frontend Layer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-289" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qei-x_7UqU7kLkCLDk1m-280" value="User Request / Query">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-303" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="90" />
+            </Array>
+            <mxPoint x="20" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-281" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="USER" vertex="1">
+          <mxGeometry height="60" width="120" x="-40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-297" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-282" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Accounting Tools&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Create Transaction&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Update Transaction&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Query Records&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Generate Reports&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Run Audit&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="140" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-298" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-285" value="Validated Action">
+          <mxGeometry relative="1" x="0.2821" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-283" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="AI Model&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GPT-4.1 Mini&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reasoning Engine&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" x="840" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-294" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-283">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-295" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-282">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-299" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-286">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-285" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="Validation Layer&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Pydantic Validation&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Business Rules&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Permission Checks  &amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="230" x="690" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-300" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Qei-x_7UqU7kLkCLDk1m-287" value="Query Result and Execution Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-286" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="PostgreSQL Database&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-302" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-281" value="Natural Language Response">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-287" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&amp;nbsp;AI Response Generator" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-296" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&amp;nbsp;Intent Detection&amp;nbsp;&lt;div&gt;Tool Selection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="660" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

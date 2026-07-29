@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Sxex_wsuKtHUQ1G2HuUN">
+    <mxGraphModel dx="852" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-183" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" value="PostgreSQL&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Store/Retrieve&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Financial Data&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-194" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="Response">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="389.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-184" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" value="AI Response&lt;div&gt;Generated Answer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-198" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-186" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" value="Select Tool" vertex="1">
+          <mxGeometry height="80" width="120" x="650" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-195" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="169.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-196" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qei-x_7UqU7kLkCLDk1m-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-187" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" value="User Request&amp;nbsp; (Natural Language)" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-197" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qei-x_7UqU7kLkCLDk1m-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-188" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" value="&lt;br&gt;🔷 AI Agent Understand Intent&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-189" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Execute Action" vertex="1">
+          <mxGeometry height="150" width="140" x="640" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-190" parent="Qei-x_7UqU7kLkCLDk1m-189" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Create&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-193" parent="Qei-x_7UqU7kLkCLDk1m-189" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Audit" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-191" parent="Qei-x_7UqU7kLkCLDk1m-189" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Query&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-192" parent="Qei-x_7UqU7kLkCLDk1m-189" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Report&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-199" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.019;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" target="Qei-x_7UqU7kLkCLDk1m-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qei-x_7UqU7kLkCLDk1m-200" edge="1" parent="1" source="Qei-x_7UqU7kLkCLDk1m-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;" target="Qei-x_7UqU7kLkCLDk1m-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
